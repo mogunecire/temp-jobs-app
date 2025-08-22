@@ -55,3 +55,5 @@ Overall, the flow of the application should look something like this:
 - Create a currentItem state variable in App.jsx and pass it down to the JobInfo component as a prop, using it to display the current job.
 - Set up a BtnContainer component and pass the jobs array, currentItem state variable, and setCurrentItem function down as props.
 - In the BtnContainer component, create a button for each job in the jobs array, and attach the setCurrentItem function to each button to change the currentItem state variable and render the selected job.
+
+#### Jobs app built with React as part of a learning project from a course.
